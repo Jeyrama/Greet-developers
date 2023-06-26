@@ -22,3 +22,14 @@ Notes:
   The order of the properties in the objects does not matter.
   The input array will always be valid and formatted as in the example above.
 */
+
+
+// Solution:
+
+function greetDevelopers(list) {
+  list.forEach(function(developer) {
+    developer.greeting = `Hi ${developer.firstName}, what do you like the most about ${developer.language}?`;
+  });
+
+  return list;
+}
