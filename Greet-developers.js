@@ -33,3 +33,5 @@ function greetDevelopers(list) {
 
   return list;
 }
+
+// or
